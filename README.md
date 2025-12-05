@@ -12,3 +12,9 @@ build$ ./token_ring/test_token_ring
 build$ make test_token_ring
 build$ ./token_ring/test_token_ring
 ```
+
+Как запустить сеть (файл `main.cpp`)
+```bash
+build$ make main
+build$ ./main
+```
