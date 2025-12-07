@@ -28,7 +28,7 @@ public:
         return false;
     }
 
-    bool OnSendMessage(unsigned from, unsigned to, std::string&& msg) override {
+    bool OnSendMessage(unsigned from, int to, std::string&& msg) override {
         agents[from]->SendMessage(to, std::move(msg));
         return true;
     }

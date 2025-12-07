@@ -12,7 +12,7 @@ public:
     void Run();
 
     bool HasActiveAgents() const override;
-    bool OnSendMessage(unsigned from, unsigned to, std::string&& msg) override;
+    bool OnSendMessage(unsigned from, int to, std::string&& msg) override;
     void OnExit() override;
 
     ~Emulator();
